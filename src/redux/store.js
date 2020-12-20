@@ -5,7 +5,7 @@ import initialStoreData from '../data/dataStore';
 const initialState = {
   app: initialStoreData.app,
   lists: initialStoreData.lists,
-  columns: initialStoreData.columns,
+  columns: initialStoreData.columns, 
   cards: initialStoreData.cards,
   searchString: '',
 };
