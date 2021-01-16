@@ -5,7 +5,7 @@ import { settings } from '../../data/dataStore';
 
 const FAQ = () => (
   <Container>
-    <Hero></Hero>
+    <Hero titleText={'FAQ'} imageMain={'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png'}></Hero>
     <h2>FAQ</h2>
     <ol>
       <li>{settings.faq.p_one}</li>
